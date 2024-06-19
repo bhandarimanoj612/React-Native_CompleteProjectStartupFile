@@ -1,4 +1,4 @@
-# React Native Starter Project
+# React Native Starter Project (Expo)
 
 Welcome to the React Native Starter Project! This project is designed to provide a ready-to-use setup for starting new React Native projects, eliminating the need to manually install dependencies each time.
 
