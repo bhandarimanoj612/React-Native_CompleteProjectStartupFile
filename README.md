@@ -140,11 +140,12 @@ The project includes the following dependencies:
 - [JavaScript Info](https://javascript.info/)
 - [Expo Documentation](https://docs.expo.dev/)
 
-##Youtube Channel from me 
--Code with nome
--not just developer
--thapa technical
+### Youtube Channel from me 
 
+-[not just developer](https://www.youtube.com/watch?v=rIYzLhkG9TA&t=2093s)
+-[thapa technical](https://www.youtube.com/watch?v=pBEeQ6B6bUI&list=PLwGdqUZWnOp354xMD8u0hxX-1qmCvfLiY)
+-[Code with nome](https://www.youtube.com/watch?v=tLl_h6-UIC4)
+-[Engineer Codewala](https://www.youtube.com/watch?v=abVcpSRM0Wc&t=250s)
 
 I have added more quick overview for learning react native so that you can start from this git repo
 
