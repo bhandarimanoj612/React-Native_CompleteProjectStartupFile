@@ -64,6 +64,7 @@ react-native-starter/
 ```
 You will get below startup package 
 ------------------------------------------------->
+```
  "@react-native-async-storage/async-storage": "1.23.1",
     "@react-navigation/bottom-tabs": "^6.5.11",
     "@react-navigation/native": "^6.1.8",
@@ -91,5 +92,7 @@ You will get below startup package
     "react-native-vector-icons": "^10.0.3",
     "react-native-virtualized-view": "^1.0.0",
     "tailwindcss": "^3.3.2"
+```
+
 ---------------------------------------------------->
 Happy coding! 🚀
