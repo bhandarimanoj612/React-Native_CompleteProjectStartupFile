@@ -25,6 +25,9 @@ Make sure you have the following installed:
 
     ```bash
     git clone https://github.com/bhandarimanoj612/React-Native_CompleteProjectStartupFile.git
+    ```
+    Copy----------------------------------------------------------------------------------->
+     ```bash
     cd React-Native_CompleteProjectStartupFile
     ```
 
@@ -136,6 +139,188 @@ The project includes the following dependencies:
 - [React Documentation](https://reactjs.org/docs/getting-started.html)
 - [JavaScript Info](https://javascript.info/)
 - [Expo Documentation](https://docs.expo.dev/)
+
+##Youtube Channel from me 
+-Code with nome
+-not just developer
+-thapa technical
+
+
+I have added more quick overview for learning react native so that you can start from this git repo
+
+JavaScript Fundamentals
+
+ES6+ Features:
+----------------------------------------------------------------------------------------------------------
+1)Arrow Functions: Shorter syntax for writing functions with no this binding.
+const add = (a, b) => a + b;
+
+2)Destructuring: Extracting values from arrays or objects into distinct variables.
+const { name, age } = person;
+
+
+3)Spread/Rest Operators: Spread expands arrays/objects, rest collects multiple elements into an array.
+const newArr = [...arr, 4, 5];
+const [first, ...rest] = arr;
+
+
+4)Template Literals: String literals with embedded expressions.
+const greeting = `Hello, ${name}!`;
+
+
+5)Classes: Syntactic sugar over prototype-based inheritance.
+class Person {
+  constructor(name) {
+    this.name = name;
+  }
+  greet() {
+    return `Hello, ${this.name}`;
+  }
+}
+
+
+
+6)Modules: Importing and exporting functionalities.
+import { add } from './math';
+
+
+Promises and Async/Await:
+
+7)Promises: Represent the eventual completion or failure of an asynchronous operation.
+fetchData().then(data => console.log(data));
+
+8)Async/Await: Syntactic sugar for handling promises more synchronously.
+const fetchData = async () => {
+  const response = await fetch(url);
+  return response.json();
+};
+
+9)try and catch: for handling execption
+
+ try {
+console.log("hello")
+ }catch{
+ console.log('testing')
+ }
+
+React Basics
+Components:
+
+
+1)Functional Components: Simpler, no state or lifecycle methods until hooks.
+const MyComponent = () => <div>Hello</div>;
+
+2)Class Components: Have state and lifecycle methods.
+class MyComponent extends React.Component {
+  render() {
+    return <div>Hello</div>;
+  }
+}
+
+
+State and Props:
+
+3)State: Component's local data storage.
+this.state = { count: 0 };
+
+
+Props: Read-only attributes passed to components.
+const MyComponent = (props) => <div>{props.message}</div>;
+
+Hooks:
+
+4)useState: Manages state in functional components.
+
+const [count, setCount] = useState(0);
+
+
+5)useEffect: Performs side effects in functional components.
+
+useEffect(() => { /* effect */ }, []);
+
+
+6)useContext: Accesses context in functional components.
+const value = useContext(MyContext);
+
+JSX:
+
+7)JSX Syntax: JavaScript XML-like syntax for defining UI components.
+const element = <h1>Hello, world!</h1>;
+
+
+
+React Native Specifics
+Core Components:
+
+1)View: Container for components.
+<View style={{ flex: 1 }} />
+
+
+2)Text: Displays text.
+<Text>Hello, World!</Text>
+
+
+3)Image: Displays images.
+<Image source={{ uri: 'https://example.com/image.jpg' }} />
+
+
+4)ScrollView: Scrollable container.
+<ScrollView>
+  <Text>Item 1</Text>
+  <Text>Item 2</Text>
+</ScrollView>
+
+5)FlatList: Efficient list for large data sets.
+<FlatList data={data} renderItem={({ item }) => <Text>{item.name}</Text>} />
+
+Styling:
+
+6)Flexbox Layout: Used for layout.
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+});
+
+Navigation:
+
+7)React Navigation: Library for navigation.
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+
+
+
+APIs:
+
+8)Fetching Data: Using fetch or axios.
+const fetchData = async () => {
+  const response = await fetch(url);
+  return response.json();
+};
+
+
+9)Axios: axios  for fetching data 
+const response = await axios.get(
+        `${BASE_URL}BudgetTrip/user/${userInfo.email}`
+      );
+`
+axios.get ---->for get
+axios.put ---->for put
+axios.delete---> for delete
+axios.post ----->for post 
+`
+
+
+State Management:
+10)Redux: Centralized state management.
+import { createStore } from 'redux';
+const store = createStore(reducer);
+
+
+
+
 
 Good luck with your learning and development!
 
