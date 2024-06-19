@@ -23,7 +23,7 @@ Make sure you have the following installed:
 1. **Clone the Repository**:
 
     ```bash
-    git clone https://github.com/your-username/react-native-starter.git
+    git clone https://github.com/bhandarimanoj612/React-Native_CompleteProjectStartupFile.git
     cd react-native-starter
     ```
 
