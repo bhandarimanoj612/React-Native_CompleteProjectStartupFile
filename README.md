@@ -24,7 +24,7 @@ Make sure you have the following installed:
 
     ```bash
     git clone https://github.com/bhandarimanoj612/React-Native_CompleteProjectStartupFile.git
-    cd react-native-starter
+    cd React-Native_CompleteProjectStartupFile
     ```
 
 2. **Install Dependencies**:
